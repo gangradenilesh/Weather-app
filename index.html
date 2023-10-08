@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="main-section">
+      <div class="container">
+      <div class="search">
+       
+        <input type="text" placeholder="Enter city name.."/>
+        <button><img src="./images/search.png"/></button>
+        
+      </div>
+      <div class="weather-city">
+        <div class="weather-state">
+        <img src="./images/rain.png" class="weatherIcon"/>
+        <div class="weather__forecast"></div>
+        <h1 class="temp"></h1>
+        <h2 class="city"></h2>
+      </div>
+        <div class="weather-details">
+          <div class="col">
+            <i class="fa fa-thermometer-quarter" aria-hidden="true"></i>
+            <span>
+              <p class="feels_like">18&#176</p>
+              <p>Feels Like</p>
+            </span>
+          </div>
+          <div class="col">
+            <i class="fa fa-tint" aria-hidden="true"></i>
+            <span>
+              <p class="humidity">18&#176</p>
+              <p>Humidity</p>
+            </span>
+          </div>
+          <div class="col">
+            <i class="fa fa-tachometer" aria-hidden="true"></i>
+            <span>
+              <p class="wind">18&#176</p>
+              <p>Wind Speed</p>
+            </span>
+          </div>
+          <div class="col">
+            <i class="fa fa-tachometer" aria-hidden="true"></i>
+            <span>
+              <p class="pressure">18&#176</p>
+              <p>Pressure</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+  </body>
+</html>
